@@ -1,0 +1,286 @@
+@media all and (max-width: 1200px) {
+  #navbar__item_header {
+    margin-top: 0px;
+  }
+
+  .scale {
+    width: 175%;
+  }
+}
+@media all and (max-width: 992px) {
+  .navbar__block_left {
+    width: 60%;
+  }
+
+  .navbar__block_right {
+    width: 40%;
+  }
+
+  .navbar__item_icon {
+    margin-left: 45px;
+  }
+
+  .navbar__item_text {
+    margin-left: 25px;
+  }
+  #navbar__item_header {
+    margin-left: 25px;
+  }
+
+  #aboutme__item_desc3 {
+    margin-left: -30px;
+  }
+
+  .scale {
+    width: 140%;
+  }
+}
+@media all and (max-width: 768px) {
+  .navbar__block_left {
+    width: 75%;
+  }
+
+  .navbar__block_right {
+    width: 25%;
+    font-size: 15px;
+  }
+
+  .navbar__item_icon {
+    margin-left: 75px;
+  }
+
+  #navbar__item_header {
+    display: none;
+  }
+
+  .navbar__item_text {
+    display: none;
+  }
+  .aboutme__list {
+    width: 90%;
+    margin-left: -55px;
+  }
+  #aboutme__item_desc1 {
+    margin-left: -13px;
+  }
+  #aboutme__item_desc2 {
+    margin-left: 20px;
+  }
+
+  #aboutme__item_desc3 {
+    margin-left: -38px;
+  }
+
+  #aboutme__item_desc4 {
+    margin-left: -11px;
+  }
+
+  #aboutme__item_desc5 {
+    margin-left: -7px;
+  }
+  .scale {
+    width: 100%;
+  }
+}
+@media all and (max-width: 576px) {
+  .navbar__block_left {
+    width: 85%;
+  }
+
+  .navbar__block_right {
+    width: 15%;
+    font-size: 15px;
+  }
+
+  .navbar__item_icon {
+    margin-left: 23px;
+  }
+
+  .aboutme__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px;
+    width: 100%;
+  }
+
+  .aboutme__item {
+    text-align: center;
+  }
+
+  .aboutme__item_number {
+    font-size: 60px;
+  }
+
+  .aboutme__item_desc {
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 135px;
+    font-weight: 600px;
+  }
+
+  #aboutme__item_desc1 {
+    margin-left: 198px;
+  }
+  #aboutme__item_desc2 {
+    margin-left: 192px;
+  }
+
+  #aboutme__item_desc3 {
+    margin-left: 162px;
+  }
+
+  #aboutme__item_desc4 {
+    margin-left: 140px;
+  }
+
+  #aboutme__item_desc5 {
+    margin-left: 127px;
+  }
+
+  .skills__list {
+    display: block;
+  }
+
+  #scale1 {
+    margin-left: -115px;
+  }
+  #scale2 {
+    margin-left: -155px;
+  }
+  #scale3 {
+    margin-left: -70px;
+  }
+
+  #scale5 {
+    margin-left: -240px;
+  }
+  #scale6 {
+    margin-left: -75px;
+  }
+
+  .exp__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exp__item {
+    width: 80%;
+  }
+
+  .edu__list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .edu__item {
+    width: 80%;
+  }
+}
+@media all and (max-width: 320px) {
+  .navbar {
+    width: 100%;
+    flex-direction: column;
+  }
+  .navbar__block_left {
+    width: 100%;
+  }
+
+  .navbar__block_right {
+    width: 100%;
+  }
+
+  h4 {
+    padding-top: 10px;
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  #navbar__item_header {
+    display: inline;
+    margin-left: 16px;
+  }
+
+  .navbar__item_text {
+    display: inline;
+    font-size: 16px;
+    margin-left: 16px;
+  }
+  .navbar__item_icon {
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
+  }
+
+  .aboutme__block {
+    margin-left: 15px;
+  }
+
+  .aboutme__list {
+    margin-left: 0px;
+  }
+  #aboutme__item_desc1 {
+    margin-left: 80px;
+  }
+  #aboutme__item_desc2 {
+    margin-left: 80px;
+  }
+
+  #aboutme__item_desc3 {
+    margin-left: 60px;
+  }
+
+  #aboutme__item_desc4 {
+    margin-left: 40px;
+  }
+
+  #aboutme__item_desc5 {
+    margin-left: 20px;
+  }
+
+  .skills__list {
+    width: 70%;
+  }
+
+  #scale_2 {
+    margin-left: 10px;
+  }
+  #scale_3 {
+    margin-left: -10px;
+  }
+
+  #scale_4 {
+    margin-left: -30px;
+  }
+  #scale_5 {
+    margin-left: 30px;
+  }
+  #scale_6 {
+    margin-left: -10px;
+  }
+
+  #scale4 {
+    margin-left: -6px;
+  }
+
+  .exp__title_main {
+    width: 100%;
+  }
+
+  .edu__title_main {
+    width: 100%;
+  }
+
+  .contact__title {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #contact__desc {
+    font-size: 18px;
+    margin-left: -30px;
+  }
+}
